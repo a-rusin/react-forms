@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #e2e2e2 !important;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.form-content {
+  background: #fff;
+  border: 1px solid #acacac;
+  border-radius: 12px;
+  width: 400px;
+  padding: 10px;
+}
+
+.form {
+}
+
+.form-title {
+  text-align: center;
+}
+
+.form-input {
+  padding-top: 14px;
+}
+
+.form-btns {
+  margin-top: 14px;
+}
+
+.form-submit-btn {
+}
+
+.change-mode {
+  padding-top: 8px;
+  text-align: center;
+}
+
+.change-mode span {
+  text-decoration: underline;
+  cursor: pointer;
+}
