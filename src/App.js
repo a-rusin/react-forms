@@ -13,7 +13,11 @@ function App() {
     <div className="form-wrapper">
       <div className="form-content">
         <form className="form">
-          {isLoginForm ? <SignIn onSubmit={onSubmit} /> : <SignUp />}
+          {isLoginForm ? (
+            <SignIn onSubmit={onSubmit} />
+          ) : (
+            <SignUp onSubmit={onSubmit} />
+          )}
         </form>
         {isLoginForm ? (
           <div className="change-mode">

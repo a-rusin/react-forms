@@ -57,6 +57,8 @@ const SignIn = ({ onSubmit }) => {
           variant="filled"
           className="form-submit-btn"
           type="submit"
+          fullWidth
+          radius="md"
           onClick={handleSubmit}
         >
           Войти
